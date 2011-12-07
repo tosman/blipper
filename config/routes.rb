@@ -18,7 +18,9 @@ Blipper::Application.routes.draw do
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
   match 'welcome' => 'welcome#index'
-  root :to => 'welcome#index'
+  #match '' => "home"
+  #match '' => 
+  root :to => 'home#index'
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)

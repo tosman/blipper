@@ -10,6 +10,8 @@ gem 'sqlite3'
 gem 'json'
 
 gem "nifty-generators", :group => :development
+gem "faker"
+gem "populator"
 
 # Gems used only for assets and not required
 # in production environments by default.
